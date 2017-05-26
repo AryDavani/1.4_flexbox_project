@@ -47,6 +47,12 @@ ul li a {
   font-weight: 600;
 }
 
+.meta {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 2px 0px gray;
+}
+
 #facebook {
   font-size: 30px;
 }
@@ -82,10 +88,12 @@ main {
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0 auto;
-  position: relative;
   margin-bottom: 50px;
-  z-index: 6;
   display: flex;
+  align-items: flex-start;
+  position: relative;
+  top: -80px;
+
 }
 
 .item {
@@ -93,7 +101,7 @@ main {
   width: 535px;
   background-color: #FFFFFF;
   margin-left: 135px;
-  margin-top: 40px;
+  margin-top: 60px;
   padding: 10px;
 
 }
@@ -113,8 +121,12 @@ main {
   width: 250px;
   background-size: cover;
   background-position: center;
-  align: right;
+  float: right;
+}
 
+.entry-title {
+  margin-left: 24px;
+  padding-top: 40px;
 }
 
 .auth-pic {
@@ -131,11 +143,10 @@ aside {
   box-shadow: gray 1px 1px 2px 2px;
   width: 350px;
   padding-top: 30px;
-  position: absolute;
-  left: 65%;
-  top: 50px;
-}
+  margin-left: 80px;
+  margin-top: 30px;
 
+}
 
 
 .aside-heading {
@@ -151,14 +162,28 @@ aside {
   justify-content: space-around;
   text-transform: uppercase;
   font-family: Josefin Sans;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: bold;ß
 }
 
 .entry-title {
   font-family: Josefin Sans;
   font-size: 26px;
   font-weight: bold;
+}
+
+.icon-wrapper {
+  background-color: #FEF9EC;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  left: 43%;
+  top: 60px;
 }
 
 p {
@@ -178,7 +203,6 @@ p {
 .primary-text {
   display: flex;
   flex-direction: row;
-
 }
 
 footer {
